@@ -1,0 +1,26 @@
+{
+    "name": "hongen/logok",
+    "description": "logok",
+    "authors": [
+        {
+            "name": "hongen",
+            "email": "zzwhe@126.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hongen\\Logok\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hongen\\Logok\\LogokServiceProvider"
+            ],
+            "aliases": {
+                "Logok": "Hongen\\Logok\\Logok"
+            }
+        }
+    }
+}
