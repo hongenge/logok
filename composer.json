@@ -12,5 +12,15 @@
         "psr-4": {
             "Hongen\\Logok\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hongen\\Logok\\LogokServiceProvider"
+            ],
+            "aliases": {
+                "Logok": "Hongen\\Logok\\Logok"
+            }
+        }
     }
 }

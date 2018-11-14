@@ -13,7 +13,6 @@ class LogokServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        dd(1);
         $this->loadMigrationsFrom(__DIR__.'/../migrations');
 
 
