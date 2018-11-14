@@ -7,12 +7,13 @@
 
 用法:
 ```php
+
 use Logok;
 
 class User{
-	public function test(){
-		Logok::info('message');
-	}
+    public function test(){
+        Logok::info('message');
+    }
 }
 
 ```
