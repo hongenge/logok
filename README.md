@@ -1,4 +1,4 @@
-### logok for Laravel
+### Logok for Laravel
 安装：
 `composer require hongen/logok`
 
